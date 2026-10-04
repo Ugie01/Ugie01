@@ -55,7 +55,7 @@ STM32 펌웨어와 센서 및 모터 제어부터 ROS 2 기반 로봇 SW와 다�
 ![SPI](https://img.shields.io/badge/SPI-8D4A2F?style=flat-square)
 ![DMA / Interrupt](https://img.shields.io/badge/DMA%20%2F%20Interrupt-8D4A2F?style=flat-square)
 
-### Sensors & Perception
+### Sensor & Vision
 
 ![IMU](https://img.shields.io/badge/IMU-6F5747?style=flat-square)
 ![GPS](https://img.shields.io/badge/GPS-6F5747?style=flat-square)
@@ -68,9 +68,9 @@ STM32 펌웨어와 센서 및 모터 제어부터 ROS 2 기반 로봇 SW와 다�
 ### Platform & Development
 
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A55A35?style=flat-square&logo=raspberrypi&logoColor=white)
+![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-A55A35?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-A55A35?style=flat-square&logo=linux&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-A55A35?style=flat-square&logo=git&logoColor=white)
-![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-A55A35?style=flat-square&logo=stmicroelectronics&logoColor=white)
 
 ### Collaboration
 
@@ -90,7 +90,7 @@ STM32 펌웨어와 센서 및 모터 제어부터 ROS 2 기반 로봇 SW와 다�
 - **기간:** 2026.09 ~ 진행 중 / 7인 팀
 - **담당 역할:** FMS 백엔드 개발 및 다중 로봇 통신, 주행, 작업 흐름 연동
 - **구현한 내용:** 로봇 3대 연결 상태 및 주행 명령 관리, Route Graph와 Nav2 FollowWaypoints 연동, 주문 → Pickup → ArUco 정렬 → MQTT OMX 작업 흐름 구성
-- **문제 해결:** Chrony 시간 동기화와 LiDAR Scan 지연 조정, 특수 노드 도착 Yaw 고정, 일반 이동과 충전 도킹 조건 분리
+- **문제 해결:** Chrony 시간 동기화와 LiDAR Scan 지연 조정, 일반 이동과 충전 도킹 조건 분리
 
 [Portfolio 상세 보기](https://ugie01.github.io/projects/fms.html)
 
@@ -177,7 +177,7 @@ STM32 펌웨어와 센서 및 모터 제어부터 ROS 2 기반 로봇 SW와 다�
 
 ### [ROS2 Controller](https://github.com/Ugie01/ROS2_Controller)
 
-`ROS 2` `Android` `Camera` `2D LiDAR`
+`ROS 2 Jazzy` `Android` `Camera` `2D LiDAR`
 
 - Android에서 ROS 2 Camera 영상 및 LiDAR 정보 시각화
 - 이동 명령 입력 및 로봇 제어 인터페이스 구성
