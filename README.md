@@ -82,7 +82,7 @@ STM32 펌웨어와 센서 및 모터 제어부터 ROS 2 기반 로봇 SW와 다�
 
 ## 📂 Projects
 
-### [AX Logistics Multi Robot](https://github.com/E1I6-Logistics/Logistics_FMS)
+### [AX Multi-Robot Logistics](https://github.com/E1I6-Logistics/Logistics_FMS)
 
 `ROS 2 Jazzy` `Zenoh` `MQTT` `Nav2` `Python`
 
