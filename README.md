@@ -90,7 +90,7 @@ STM32 펌웨어와 센서 및 모터 제어부터 ROS 2 기반 로봇 SW와 다�
 - **기간:** 2026.09 ~ 진행 중 / 7인 팀
 - **담당 역할:** FMS 백엔드 개발 및 다중 로봇 통신, 주행, 작업 흐름 연동
 - **구현한 내용:** 로봇 3대 연결 상태 및 주행 명령 관리, GeoJSON Route Graph와 Nav2 NavigateThroughPoses 연동, 주문 → Pickup → ArUco 정렬 → MQTT/OMX 작업 흐름 구성
-- **문제 해결:** Main PC와 로봇 간 Chrony 시간 동기화, LiDAR Scan 지연 조정, 일반 이동과 충전 도킹 조건 분리
+- **문제 해결:** Main PC와 로봇 간 Chrony 시간 동기화, LiDAR Scan 지연 조정
 
 [Portfolio 상세 보기](https://ugie01.github.io/projects/fms.html)
 
